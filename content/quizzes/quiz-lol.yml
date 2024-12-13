@@ -1,0 +1,15 @@
+slug: quiz-lol
+title: League of Legends
+questions:
+  - text: Who lives in Piltover?
+    options:
+      - Seraphine
+      - Yasuo
+      - Briar
+    answer: 0
+  - text: Which champion is played in the Jungle?
+    options:
+      - Pantheon
+      - Darius
+      - Ekko
+    answer: 2

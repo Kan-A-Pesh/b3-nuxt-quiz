@@ -14,8 +14,19 @@
 </template>
 
 <script setup lang="ts">
-import { useQuizzes } from '@/composables/useQuizzes';
+import { useQuizzes } from '~/composables/useQuizzes';
 
-const { fetchAllQuizzes } = useQuizzes();
-const { data: quizzes } = await fetchAllQuizzes();
+const props = defineProps({
+    search: {
+        type: String,
+        required: false,
+        default: null
+    }
+})
+
+const { quizzes, refetchQuizzes } = await useQuizzes();
+
+watch(() => props.search, () => {
+    refetchQuizzes(props.search)
+})
 </script>

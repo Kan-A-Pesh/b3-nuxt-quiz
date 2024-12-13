@@ -7,7 +7,7 @@
 <script setup lang="ts">
 const props = defineProps({
     startedAt: {
-        type: Number,
+        type: Object,
         required: false,
         default: null
     },
@@ -17,7 +17,7 @@ const props = defineProps({
     }
 })
 
-const startedAt = ref(props.startedAt || Date.now())
+const startedAt = ref(props.startedAt.value || Date.now())
 const availableTime = ref(props.time)
 
 const remainingTimeInPercent = ref(100)

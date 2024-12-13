@@ -1,0 +1,27 @@
+slug: quiz-code
+title: Coding test
+questions:
+  - text: What is the more efficient?
+    options:
+      - O(n)
+      - O(log n)
+      - O(n^2)
+    answer: 1
+  - text: In which language is this code written? (let x = 1)
+    options:
+      - JavaScript
+      - Python
+      - C++
+    answer: 0
+  - text: In crypto, which names are used as examples?
+    options:
+      - John and Doe
+      - X and Y
+      - Alice and Bob
+    answer: 2
+  - text: In which language is this code written? (def foo():)
+    options:
+      - Python
+      - JavaScript
+      - C++
+    answer: 0

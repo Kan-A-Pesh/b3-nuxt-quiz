@@ -1,0 +1,22 @@
+slug: quiz-animals
+title: Animal Knowledge Test
+questions:
+  - text: What animal can fly?
+    options:
+      - Dog
+      - The quick brown fox
+      - Dog with wings
+    answer: 2
+  - text: Question 2
+    options:
+      - The same fox as the previous question
+      - Option 2
+      - The answer to the question 2
+    answer: 2
+  - text: Which is an animal?
+    options:
+      - A red table
+      - A yellow fox
+      - A blue table
+      - A green table
+    answer: 1

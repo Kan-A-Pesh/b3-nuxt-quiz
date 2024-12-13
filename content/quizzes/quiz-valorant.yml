@@ -1,0 +1,45 @@
+slug: quiz-valorant
+title: Valorant Knowledge Test
+questions:
+  - text: What was the first agent released after the beta?
+    options:
+      - Cypher
+      - Reyna
+      - Gecko
+      - Sage
+    answer: 1
+  - text: Which champion says "Seek them out!" ?
+    options:
+      - Jett
+      - Sova
+      - Skye
+      - Sage
+    answer: 2
+  - text: Which agent is a Sentinel ?
+    options:
+      - Sage
+      - Jett
+      - Reyna
+      - Skye
+    answer: 0
+  - text: Which agent must setup traps ?
+    options:
+      - Yoru
+      - Sage
+      - Cypher
+      - Jett
+    answer: 2
+  - text: Which agent uses a grenade ?
+    options:
+      - Clove
+      - Raze
+      - Reyna
+      - Skye
+    answer: 1
+  - text: Which agent is the cutest ?
+    options:
+      - Not Clove
+      - Still not Clove
+      - Definitely not Clove
+      - Clove
+    answer: 3
