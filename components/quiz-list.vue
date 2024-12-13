@@ -6,8 +6,8 @@
                     <h2 class="font-semibold">{{ quiz.title }}</h2>
                     <p>Number of Questions: {{ quiz.questions.length }}</p>
                 </div>
-                <NuxtLink :to="`/quizzes/${quiz.slug}`" class="bg-orange-500 text-white py-2 px-4 rounded">Start Quiz
-                </NuxtLink>
+                <NuxtLink :to="`/quiz/${quiz.slug}`" class="bg-orange-500 text-white py-2 px-4 rounded">Start
+                    Quiz</NuxtLink>
             </div>
         </li>
     </ul>

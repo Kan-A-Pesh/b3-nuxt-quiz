@@ -3,6 +3,7 @@
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
     "target": "es2017",
-    "module": "esnext"
+    "module": "esnext",
+    "types": ["vue"]
   }
 }
